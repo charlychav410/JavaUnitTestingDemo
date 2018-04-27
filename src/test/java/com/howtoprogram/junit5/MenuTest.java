@@ -19,10 +19,10 @@ public class MenuTest {
 	String candidateNAme= election.getCandidateNameByParty("Axity");
 	int numOfVotes= election.getNumberOfVotesByParty("Axity");
 	System.out.println(String.format("Name: %s - Votes: %d", candidateNAme, numOfVotes));
-	assertEquals("Prueba", candidateNAme);
+	assertEquals("Elmer Homero", candidateNAme);
 	assertEquals( 10, numOfVotes);
 
-	}
+	} 
 	@Test
 	void getNameByPArtyTestMockito() {
 	IElection election = mock(Election.class);

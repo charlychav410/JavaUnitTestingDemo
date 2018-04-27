@@ -13,7 +13,7 @@ public class ElectionMock implements IElection {
 	@Override
 	public int getNumberOfVotesByParty(String party) {
 		
-		return 50;
+		return 10;
 	}
 
 	}
