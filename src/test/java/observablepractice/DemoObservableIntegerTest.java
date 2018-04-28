@@ -6,11 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-
-
 import org.junit.jupiter.api.DisplayName;
 
-public class DemoObservableTestInteger {
+public class DemoObservableIntegerTest {
 	
 	Integer[] arrNumbers = {1,5,10,20}; 
 	

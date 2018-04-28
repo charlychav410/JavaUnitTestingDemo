@@ -1,11 +1,9 @@
 package com.howtoprogram.junit5.observablepractice;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import io.reactivex.Flowable;
-import io.reactivex.Observable;
 
 public class DemoObservablesInteger {
 	
